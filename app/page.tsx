@@ -61,7 +61,7 @@ export default function Component() {
           </Link>
           <Link
             className="text-sm font-medium hover:underline underline-offset-4"
-            href="https://demo.ced.asharib.xyz/"
+            href="https://app.eduhub.dev/"
             target="_blank"
           >
             Try Live Application
@@ -88,9 +88,9 @@ export default function Component() {
                   Build dApps on EduChain
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-300 md:text-xl">
-                  A starter-kit featuring React & NextJS and Vue & NuxtJS with
-                  Hardhat or Foundry for building dApps on the Open Campus L3
-                  (EduChain).
+                  A starter-kit featuring React & NextJS, Vue & NuxtJS, and Vite
+                  & RemixJS with Hardhat or Foundry for building dApps on the
+                  Open Campus L3 (EduChain).
                 </p>
               </div>
               <div className="w-full max-w-sm space-y-2">
@@ -164,8 +164,8 @@ export default function Component() {
                 </svg>
                 <h3 className="text-xl font-bold">Frontend Frameworks</h3>
                 <p className="text-sm text-gray-400 text-center">
-                  Choose between React & NextJS and Vue & NuxtJS for your
-                  frontend development environment.
+                  Choose between React & NextJS, Vue & NuxtJS, and Vite &
+                  RemixJS for your frontend development environment.
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
@@ -353,7 +353,7 @@ export default function Component() {
         >
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">
-              <a href="https://demo.ced.asharib.xyz/" target="_blank">
+              <a href="https://app.eduhub.dev/" target="_blank">
                 <strong>(Click Here to Try Live Application)</strong>
               </a>
             </h2>
@@ -392,7 +392,7 @@ export default function Component() {
       </main>
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t border-gray-800">
         <p className="text-xs text-gray-400">
-        © {new Date().getFullYear()}{" "} EduKit |{" "}
+          © {new Date().getFullYear()} EduKit |{" "}
           <strong>
             <a href="https://eduhub.dev" target="_blank">
               EduHub.
